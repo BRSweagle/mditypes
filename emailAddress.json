@@ -1,0 +1,32 @@
+{
+	"identifierKey": "emailAddress",
+	"version": {
+		"id": 34662517,
+		"tenantId": 30736434,
+		"changesetId": 34665443,
+		"masterId": 34662516,
+		"previousVersionId": null,
+		"status": "VALID",
+		"validFrom": "2019-05-21T16:37:29.520Z",
+		"validUntil": null,
+		"name": "emailAddress",
+		"required": false,
+		"valueType": "Regex",
+		"createDate": "2019-05-21T16:29:17.782Z",
+		"modifiedDate": "2019-05-21T16:37:29.520Z",
+		"lockingVersionCounter": 2,
+		"regex": "[a-z0-9!#$%&'\"'\"'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'\"'\"'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$",
+		"createUser": 30745368,
+		"modifiedUser": null,
+		"description": "Email address does not meet required standard",
+		"defaultValue": null,
+		"sensitive": false,
+		"dateFormat": null
+	},
+	"status": "VALID",
+	"id": 34662516,
+	"type": "Attribute",
+	"new": false,
+	"deleted": false,
+	"modified": true
+}
